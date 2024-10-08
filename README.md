@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
     - Open your web browser and navigate to ```http://localhost:8080```
 
 
-## Getting Started
+## Folder Structure
 
    ```bash
 spring-security-jpa/
