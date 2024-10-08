@@ -42,8 +42,22 @@ To run this project locally, follow these steps:
 spring-security-jpa/
 │
 ├── src/                         # Source code for the application
-│   ├── main/
-│   │   ├── java/                # Java source files
+│   ├── main/java/com/agcodes/
+│   │   │           └── spring_security_jpa/     # Java source files
+│   │   │               ├── controller/
+│   │   │               │   ├── HomeResourceController.java
+│   │   │               │   └── UserController.java
+│   │   │               ├── model/
+│   │   │               │   ├── AppUserDetails.java
+│   │   │               │   ├── Authority.java
+│   │   │               │   └── User.java
+│   │   │               ├── repository/
+│   │   │               │   └── UserRepository.java
+│   │   │               ├── security/
+│   │   │               │   └── SecurityConfig.java
+│   │   │               └── service/
+│   │   │                   ├── AppUserDetailsService.java
+│   │   │                   └── UserService.java
 │   │   └── resources/           # Configuration files and templates
 │   └── test/                    # Test files
 │
